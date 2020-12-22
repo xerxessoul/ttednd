@@ -1,0 +1,23 @@
+{
+  "name": "ttednd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "pdfjs-dist": "^2.5.207"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xerxessoul/ttednd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xerxessoul/ttednd/issues"
+  },
+  "homepage": "https://github.com/xerxessoul/ttednd#readme"
+}
