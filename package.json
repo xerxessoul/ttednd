@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "pdfjs-dist": "^2.5.207"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/xerxessoul/ttednd/issues"
   },
-  "homepage": "https://github.com/xerxessoul/ttednd#readme"
+  "homepage": "https://github.com/xerxessoul/ttednd#readme",
+  "dependencies": {
+    "pdfjs-dist": "^2.13.216"
+  },
+  "devDependencies": {
+    "encoding-japanese": "^2.0.0",
+    "utf8": "^3.0.0"
+  }
 }
