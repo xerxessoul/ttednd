@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node argv.js \"COFSA.pdf\" 161 \"cofsa.json\"",
+    "test2": "node argv.js \"C:\\chest items\\PDF's\\artificer---the-expanded-toolbox.pdf\" 9 \"arty.json\""
   },
   "repository": {
     "type": "git",
