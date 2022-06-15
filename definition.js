@@ -12,4 +12,23 @@ function Spell() {
     this.isRitual = false;
 }
 
-module.exports = { Spell }
+let spellTypes = [
+    'Conjuration',
+    'Necromancy',
+    'Evocation',
+    'Abjuration',
+    'Transmutation',
+    'Divination',
+    'Enchantment',
+    'Illusion'
+]
+
+let spellComponents = [
+    'Casting Time',
+    'Range',
+    'Components',
+    'Duration',
+    'Higher Levels'
+]
+
+module.exports = { Spell: Spell, spellType: spellTypes, spellComp: spellComponents }

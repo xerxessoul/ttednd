@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node argv.js \"COFSA.pdf\" 161 \"cofsa.json\"",
-    "test2": "node argv.js \"C:\\chest items\\PDF's\\artificer---the-expanded-toolbox.pdf\" 9 \"arty.json\""
+    "tests": "node argv.js \"COFSA.pdf\" \"cofsa.json\" 160",
+    "testm": "node argv.js \"COFSA.pdf\" \"cofsa.json\" 160 180",
+    "test2": "node argv.js \"C:\\chest items\\PDF's\\artificer---the-expanded-toolbox.pdf\" \"arty.json\" 9"
   },
   "repository": {
     "type": "git",
